@@ -114,3 +114,15 @@ Connected Power BI directly to PostgreSQL. Built a 3-page report with 27 DAX mea
 * `Total Sad Bangers` — songs that are danceable (≥0.70) but emotionally negative (valence ≤0.40)
 * `Avg Popularity Sad Bangers` — avg popularity of sad bangers
 * `% of Popular Songs that are Sad Bangers` — among songs with popularity >75
+
+---
+## 🔍 Key Findings (The Outcomes)
+
+Based on 89,740 Spotify tracks analyzed across 113 genres and 31,000+ artists. The theory was only partially proven — and the nuance is more interesting than a simple yes or no.
+
+* **Energy alone does NOT drive popularity.** High energy songs (energy ≥ 0.7) averaged a popularity score of 32.83, while low energy songs averaged 33.52 — meaning acoustic and mellow songs are marginally more popular on average. This directly challenges the assumption that high-energy tracks dominate the charts.
+* **Danceability shows a slight positive edge.** Highly danceable songs (danceability ≥ 0.7) averaged 33.53 in popularity vs 33.1 for less danceable songs. The gap is small but consistent, suggesting that rhythm and groove contribute more to popularity than raw energy does.
+* **Explicit lyrics correlate with higher popularity — but not because of the words.** Explicit songs averaged 36.89 vs 32.85 for clean songs. Rather than the lyrical content itself driving this, it likely reflects genre patterns: hip-hop and rap — which dominate the explicit category — also tend to have high danceability and strong rhythmic profiles. The audio features are doing the work, not the words.
+* **Sad Bangers are the strongest proof of the theory.** There are 4,562 songs in the dataset that are highly danceable (≥0.70) yet emotionally negative (valence ≤0.40) — songs that make you move despite feeling heavy. These sad bangers averaged a popularity score of 35.10, above the overall dataset average of 33.20, and represent nearly 7% of all highly popular songs (popularity >75). If lyrics drove popularity, sad songs with dark themes should underperform. They don't.
+
+**Overall Conclusion:** Audio characteristics matter, but no single feature is a silver bullet. The data suggests that the combination of danceability, rhythm, and production energy — not lyrical content — is what keeps listeners coming back. A song can be lyrically dark, explicit, or emotionally heavy and still be wildly popular, as long as the beat is right.
