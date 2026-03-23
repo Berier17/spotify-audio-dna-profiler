@@ -10,7 +10,8 @@ What makes a song popular is its audio DNA — energy, danceability, tempo, vale
 ---
 
 ## 📸 Dashboard Preview
-*[Insert a high-resolution screenshot of your main Power BI dashboard page here]*
+*[Insert a high-resolutio<img width="1545" height="858" alt="Overview" src="https://github.com/user-attachments/assets/9cf67a8a-2ab1-406b-92b5-a531d964da38" />
+n screenshot of your main Power BI dashboard page here]*
 
 ---
 
